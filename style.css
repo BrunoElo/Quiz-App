@@ -73,6 +73,10 @@ p.qst-g, .result {
     #a, #b, #c,#d {
         margin: 8px;
     }
+    .btn:hover {
+        cursor: pointer;
+        border-color: blue;
+    }
 }
 
 .correct {

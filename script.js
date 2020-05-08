@@ -87,10 +87,11 @@ function scoreKeeper() {
     // iterates the modification of scores on question page and 
     // final result page
     for (let i = 0; i < scoreRec.length; i++) {
-        scoreRec[i].innerHTML = `Your Score: ${score}`;
+        scoreRec[i].innerHTML = `Your Score: ${score}/5`;
     }
 }
 
+// Questions, options and answer
 const questions = [
     {
         question: "Which of these snakes could hypothetically be a developer?",
